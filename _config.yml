@@ -2,19 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+title: "" # leave blank to use full name in site title
+first_name: "Kauê"
+middle_name: "de Moraes"
+last_name: "Vestena"
+email: "kauemv2@gmail.com"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  PhD candidate in Geodetic Sciences at the Federal University of Paraná. I develop open‑source tools for
+  accessibility mapping and collaborate on projects like the OSM SidewalKreator QGIS plugin【818070301618945†L156-L176】【490715376250272†L12-L18】. My research
+  focuses on using open data to map sidewalk networks and improve pedestrian mobility【818070301618945†L156-L162】.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+keywords: geospatial, accessibility mapping, OpenStreetMap, QGIS, cartography, sidewalk networks # keywords relevant to my work
+lang: en # site language
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://kauevestena.github.io # the base hostname & protocol for your site
@@ -67,16 +69,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: kauevestena # my GitHub user name
 gitlab_username: # your GitLab user name
-x_username: # your X handle
+x_username: kauevestena # my handle on X (Twitter)
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: kauevestena # my LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: "0000-0003-1225-2371" # my ORCID ID【548293366074390†L7-L9】
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -104,7 +106,8 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out via email or connect on LinkedIn for collaborations and questions about
+  accessibility mapping and OpenStreetMap projects.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

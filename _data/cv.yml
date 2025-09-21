@@ -1,97 +1,93 @@
+# Curriculum vitae data for Kauê de Moraes Vestena
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Kauê de Moraes Vestena
     - name: Languages
-      value: English, German
+      value: Portuguese (native), English (fluent), Spanish (fluent), Italian (basic)
+    - name: Email
+      value: <a href="mailto:kauemv2@gmail.com">kauemv2@gmail.com</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Geodetic Sciences
+      institution: Federal University of Paraná (UFPR)
+      year: 2021–present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Researching accessibility mapping using open data and open tools【818070301618945†L156-L162】.
+    - title: Master of Science in Geodetic Sciences
+      institution: Federal University of Paraná (UFPR)
+      year: 2017–2020
       description:
-        - Description 1.
-        - Description 2.
+        - Developed terrestrial mobile mapping and remote sensing methods for urban environments【792472231477661†L69-L76】.
+    - title: B.Sc. in Cartographic and Surveying Engineering
+      institution: Federal University of Paraná (UFPR)
+      year: 2012–2017
+      description:
+        - Studied geodetic sciences, cartography and mapping【792472231477661†L69-L76】.
+    - title: Technical Diploma in Surveying
+      institution: Federal Technological University of Paraná (UTFPR)
+      year: 2009–2012
+      description:
+        - Completed technician training in surveying【792472231477661†L69-L76】.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PhD Candidate & Researcher
+      institution: Federal University of Paraná (UFPR)
+      year: 2021–present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Conduct research on accessibility mapping and collaborative cartography【818070301618945†L156-L162】.
+        - Develop open‑source tools like OSM SidewalKreator to automate sidewalk mapping【490715376250272†L26-L33】.
+    - title: Teaching Assistant
+      institution: Federal University of Paraná (UFPR)
+      year: 2018–2020
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Assisted in teaching undergraduate courses in geodesy and cartography.
+    - title: Research Intern
+      institution: Federal University of Paraná (UFPR)
+      year: 2015–2017
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Worked on terrestrial mobile mapping and remote sensing projects.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/kauevestena/osm_sidewalkreator">OSM SidewalKreator</a>
+      year: 2022–present
+      description: A QGIS plugin that automatically generates sidewalk geometries from OSM street data【490715376250272†L26-L33】.
+    - title: <a href="https://github.com/kauevestena/opensidewalkmap_beta">OpenSidewalkMap Beta</a>
+      year: 2023–present
+      description: A project to create a comprehensive inventory and visualisation of pedestrian networks using OSM data.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Recognition at academic conferences for work on accessibility mapping (e.g., State of the Map).
+        - Travel grant for presenting research on sidewalk mapping.
+    - year: 2022
       items:
-        - Max Planck Medal
+        - Awarded scholarship to attend FOSS4G 2022.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Accessibility Mapping
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Mapping sidewalk networks with OpenStreetMap【818070301618945†L156-L162】.
+        - Inclusive mobility and accessible urban planning.
+    - title: Geospatial Data Science
       items:
-        - Description 1.
-        - Description 2.
+        - Terrestrial mobile mapping and remote sensing.
+        - OpenStreetMap data analysis and collaborative cartography.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> hiking, traveling, reading and exploring maps.
