@@ -1,65 +1,22 @@
 ---
 layout: page
-title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+title: projects
+description: Open‑source projects and tools.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+Over the last few years I have been developing and contributing to a number of open‑source tools that advance accessibility mapping and collaborative cartography. Below are some of the key projects I maintain or contribute to.
 
-{% else %}
+## OSM SidewalKreator【490715376250272†L26-L33】
 
-<!-- Display projects without categories -->
+A QGIS plugin that automatically generates sidewalk geometries from OpenStreetMap street data. It streamlines the tedious process of drawing pedestrian networks and helps populate OSM with comprehensive sidewalk information.
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+## OpenSidewalkMap【818070301618945†L156-L162】
 
-  <!-- Generate cards for each project -->
+An initiative to create a comprehensive inventory and visualisation of pedestrian networks using OpenStreetMap data. The goal is to make accessibility information more readily available to researchers, planners and the general public.
 
-{% if page.horizontal %}
+## Teaching & outreach
 
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+I regularly contribute to workshops and courses on geospatial data science and OpenStreetMap. If you're interested in inviting me for a talk or collaboration, please get in touch.

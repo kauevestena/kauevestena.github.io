@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "" # leave blank to use full name in site title
+title: "Kauê de Moraes Vestena" # updated to show full name
 first_name: "Kauê"
 middle_name: "de Moraes"
 last_name: "Vestena"
@@ -61,9 +61,9 @@ max_width: 800px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # enable Open Graph meta tags to improve link previews
+serve_schema_org: true # enable Schema.org metadata for better SEO
+og_image: /assets/img/hero.png # Use custom hero image as Open Graph preview
 
 # -----------------------------------------------------------------------------
 # Social integration
