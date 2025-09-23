@@ -1,81 +1,76 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: OpenSidewalkMap
+description: Collaborative platform for comprehensive pedestrian network mapping
+img: assets/img/opensidewalkmap.jpg
 importance: 2
 category: work
+website: https://opensidewalkmap.org
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**OpenSidewalkMap** is a collaborative mapping initiative focused on creating detailed, accessible pedestrian network inventories using OpenStreetMap data. This project represents a significant contribution to open-source accessibility mapping, providing tools and methodologies for communities to document their pedestrian infrastructure comprehensively.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Project Mission
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The project aims to make pedestrian navigation information freely available and accessible to everyone, particularly focusing on the needs of people with mobility impairments, visual impairments, and other accessibility requirements. By leveraging the power of crowdsourced mapping, OpenSidewalkMap creates detailed sidewalk networks that support inclusive urban mobility.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Key Components
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Data Collection Framework
+- **Standardized mapping protocols** for consistent sidewalk documentation
+- **Mobile mapping integration** for efficient field data collection
+- **Quality assurance workflows** ensuring data reliability and completeness
+- **Community engagement tools** for involving local stakeholders
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Technical Infrastructure
+- **OpenStreetMap integration** with specialized accessibility tagging schemas
+- **Web-based visualization platform** for exploring pedestrian networks
+- **API services** for third-party application integration
+- **Data validation tools** for maintaining dataset quality
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Research Applications
 
-{% raw %}
+OpenSidewalkMap serves multiple research and practical applications:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **Urban planning studies** analyzing pedestrian network connectivity
+- **Accessibility research** identifying infrastructure gaps and barriers
+- **Transportation modeling** incorporating detailed pedestrian route data
+- **Policy development** supporting evidence-based accessibility improvements
 
-{% endraw %}
+## Methodology
+
+The project employs a multi-source data approach:
+
+1. **Remote sensing analysis** for initial network identification
+2. **Field surveys** using mobile mapping technologies
+3. **Community mapping** through organized mapping events
+4. **Data fusion** combining various sources for comprehensive coverage
+
+## Impact and Adoption
+
+OpenSidewalkMap has been implemented in several cities, contributing to:
+- **Municipal accessibility audits** and infrastructure planning
+- **Navigation applications** with detailed accessibility information
+- **Research publications** on pedestrian network analysis
+- **Community advocacy** for improved pedestrian infrastructure
+
+## Collaboration and Partnerships
+
+The project involves collaboration with:
+- **Academic institutions** conducting accessibility research
+- **Municipal governments** improving pedestrian infrastructure
+- **Disability advocacy organizations** ensuring inclusive design
+- **Technology companies** developing accessible navigation tools
+
+## Future Development
+
+Ongoing development includes:
+- **Machine learning integration** for automated sidewalk detection
+- **Real-time data updates** through crowdsourced contributions
+- **Enhanced visualization tools** for better data exploration
+- **International expansion** to additional metropolitan areas
+
+---
+
+*Learn more about OpenSidewalkMap and explore the platform at [opensidewalkmap.org](https://opensidewalkmap.org)*

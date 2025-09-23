@@ -1,81 +1,58 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: OSM SidewalKreator
+description: QGIS plugin for creating accessible sidewalk networks in OpenStreetMap
+img: assets/img/osm-sidewalkreator.jpg
 importance: 1
 category: work
+github: https://github.com/kauevestena/osm_sidewalkreator
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**OSM SidewalKreator** is a QGIS plugin I developed to streamline the creation of detailed sidewalk networks in OpenStreetMap. This tool addresses the critical need for accessible pedestrian infrastructure data by providing an intuitive interface for mapping sidewalks, crosswalks, and pedestrian accessibility features.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Project Overview
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The plugin enables urban planners, accessibility advocates, and OpenStreetMap contributors to efficiently create comprehensive pedestrian network data. By automating many aspects of sidewalk digitization and ensuring compliance with OpenStreetMap tagging standards, SidewalKreator significantly reduces the time and expertise required to contribute high-quality accessibility data.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Key Features
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Features
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Automated Sidewalk Generation**: Creates sidewalk geometries parallel to street networks with customizable offset distances
+- **Accessibility Tagging**: Implements comprehensive OpenStreetMap accessibility tags (surface type, width, tactile paving, kerb details)
+- **Quality Assurance**: Built-in validation tools to ensure data consistency and OSM compliance
+- **Batch Processing**: Handles large datasets efficiently for city-wide mapping projects
+- **Integration with QGIS**: Seamless workflow within the familiar QGIS environment
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Technical Implementation
 
-{% raw %}
+The plugin is built using Python and the QGIS API, leveraging:
+- **PyQGIS** for geospatial processing and user interface
+- **OSM tagging schemas** for standardized accessibility attributes
+- **Geometric algorithms** for automated sidewalk placement and topology validation
+- **PostgreSQL/PostGIS** integration for large-scale data management
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Impact and Applications
 
-{% endraw %}
+OSM SidewalKreator has been used in several urban accessibility mapping projects, contributing to:
+- **Municipal planning initiatives** for improving pedestrian infrastructure
+- **Academic research** on urban accessibility and inclusive mobility
+- **Community mapping efforts** led by disability advocacy groups
+- **Transportation planning** with focus on pedestrian network connectivity
+
+## Research Context
+
+This tool directly supports my PhD research on accessibility mapping methodologies and serves as a practical implementation of open-source approaches to inclusive urban planning. The plugin demonstrates how technical solutions can democratize access to sophisticated mapping tools, enabling broader community participation in accessibility data creation.
+
+## Future Development
+
+Ongoing development focuses on:
+- Enhanced automation using machine learning for sidewalk detection
+- Integration with mobile mapping data sources
+- Improved user interface for non-technical contributors
+- Extended support for additional accessibility features
+
+---
+
+*For more information about OSM SidewalKreator, visit the [GitHub repository](https://github.com/kauevestena/osm_sidewalkreator) or contact me for collaboration opportunities.*

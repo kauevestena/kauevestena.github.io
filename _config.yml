@@ -8,14 +8,16 @@ middle_name: "de Moraes"
 last_name: "Vestena"
 email: "kauemv2@gmail.com"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD candidate in Geodetic Sciences at the Federal University of Paraná. I develop open‑source tools for
-  accessibility mapping and collaborate on projects like the OSM SidewalKreator QGIS plugin【818070301618945†L156-L176】【490715376250272†L12-L18】. My research
-  focuses on using open data to map sidewalk networks and improve pedestrian mobility【818070301618945†L156-L162】.
+  Kauê de Moraes Vestena is a PhD candidate in Geodetic Sciences at the Federal University of Paraná, 
+  specializing in accessibility mapping using OpenStreetMap and open-source geospatial technologies. 
+  Creator of OSM SidewalKreator QGIS plugin and researcher focused on inclusive urban planning, 
+  collaborative cartography, and sustainable approaches to pedestrian network mapping. Discover research 
+  publications, open-source projects, and contributions to accessible city design.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: geospatial, accessibility mapping, OpenStreetMap, QGIS, cartography, sidewalk networks # keywords relevant to my work
+  © 2024 Kauê de Moraes Vestena. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. 
+  Committed to <a href="https://www.un.org/sustainabledevelopment/" target="_blank">accessible</a> and <a href="https://opensource.org/" target="_blank">open-source</a> research.
+keywords: geodetic sciences, accessibility mapping, OpenStreetMap, QGIS plugin development, sidewalk networks, inclusive urban planning, collaborative cartography, mobile mapping, geospatial data science, open source GIS, pedestrian mobility, urban accessibility, cartographic engineering, remote sensing, PhD researcher, Federal University of Paraná, UFPR, Brazil # comprehensive keywords for SEO
 lang: en # site language
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -126,8 +128,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Research Notes # blog_name will be displayed in your blog page
+blog_description: Research insights on accessibility mapping, geodetic sciences, and open-source geospatial technologies
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -278,16 +280,16 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: ["accessibility", "openstreetmap", "mobile-mapping", "geodetic-sciences", "qgis"] # these tags will be displayed on the front page of your blog
+display_categories: ["research", "tools", "community"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Vestena]
+  first_name: [Kauê, "Kauê de Moraes", "K. M."]
 
   style: apa
   locale: en
@@ -318,7 +320,7 @@ enable_publication_badges:
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
-  [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
+  [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website, keywords, type]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3 # leave blank to always show all authors
@@ -374,10 +376,10 @@ lazy_loading_images:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
-enable_google_verification: false # enables google site verification
-enable_bing_verification: false # enables bing site verification
+enable_google_verification: true # enables google site verification
+enable_bing_verification: true # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts

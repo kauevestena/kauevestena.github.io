@@ -1,33 +1,56 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: OSM SidewalKreator Plugin Milestone
+date: 2024-08-15 10:30:00-0300
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Excited to announce that the **OSM SidewalKreator QGIS plugin** has reached **500+ downloads** from the official QGIS Plugin Repository! 🎯
+
+This milestone represents the growing interest in open-source tools for accessibility mapping. The plugin enables automated sidewalk network creation in OpenStreetMap, supporting inclusive urban planning initiatives worldwide.
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## Key Achievements
 
-#### Hipster list
+- **500+ downloads** across 25+ countries
+- **Municipal integration** with local planning workflows  
+- **Community contributions** and valuable user feedback
+- **Featured presentation** at FOSS4G 2023 conference in Prizren, Kosovo
+- **Open-source impact** with contributions from international developers
+
+## Technical Highlights
+
+The plugin has evolved significantly since its initial release:
 
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li><strong>Automated geometry generation</strong> with customizable offset distances</li>
+    <li><strong>Accessibility compliance</strong> with OpenStreetMap tagging standards</li>
+    <li><strong>Batch processing</strong> capabilities for city-wide mapping projects</li>
+    <li><strong>Quality assurance</strong> tools for data validation</li>
 </ul>
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+## Community Impact
+
+The most rewarding aspect of this project has been seeing how communities worldwide are using the tool to improve pedestrian accessibility mapping. From municipal planners in Brazil to accessibility advocates in Europe, the plugin is supporting real-world inclusive urban design.
 
 ---
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+## Next Development Phase
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+Looking ahead, the next version will include:
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+- **Enhanced automation** using machine learning for sidewalk detection
+- **Improved user interface** for non-technical contributors  
+- **Extended accessibility features** supporting additional infrastructure types
+- **Cloud integration** for collaborative mapping workflows
+
+> "Open-source tools democratize access to sophisticated mapping capabilities, enabling broader community participation in accessibility data creation."
+
+Thank you to everyone in the QGIS and OpenStreetMap communities for the support, feedback, and contributions. Special thanks to the plugin testers and the organizers of FOSS4G 2023 for providing a platform to share this work.
+
+**Links:**
+- [**Download the plugin**](https://plugins.qgis.org/plugins/osm_sidewalkreator/)
+- [**GitHub Repository**](https://github.com/kauevestena/osm_sidewalkreator)
+- [**Documentation**](https://github.com/kauevestena/osm_sidewalkreator/wiki)

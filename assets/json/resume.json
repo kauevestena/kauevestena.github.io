@@ -1,24 +1,44 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Kauê de Moraes Vestena",
+    "label": "PhD Candidate in Geodetic Sciences | Accessibility Mapping Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "kauemv2@gmail.com",
+    "phone": "",
+    "url": "https://kauevestena.github.io",
+    "summary": "PhD candidate in Geodetic Sciences at Federal University of Paraná, specializing in accessibility mapping using open data and collaborative cartography. Developer of open-source tools for inclusive urban planning, including the OSM SidewalKreator QGIS plugin.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Curitiba",
+      "countryCode": "BR",
+      "region": "Paraná"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "X (Twitter)",
+        "username": "kauevestena",
+        "url": "https://x.com/kauevestena"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "kauevestena",
+        "url": "https://linkedin.com/in/kauevestena"
+      },
+      {
+        "network": "GitHub",
+        "username": "kauevestena",
+        "url": "https://github.com/kauevestena"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0003-1225-2371",
+        "url": "https://orcid.org/0000-0003-1225-2371"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "qc6CJjYAAAAJ",
+        "url": "https://scholar.google.com/citations?user=qc6CJjYAAAAJ"
       }
     ]
   },
