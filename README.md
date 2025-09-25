@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![Deploy site](https://github.com/kauevestena/kauevestena.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/kauevestena/kauevestena.github.io/actions/workflows/deploy.yml)
 [![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A//kauevestena.github.io)](https://kauevestena.github.io)
 [![GitHub last commit](https://img.shields.io/github/last-commit/kauevestena/kauevestena.github.io)](https://github.com/kauevestena/kauevestena.github.io)
 [![GitHub issues](https://img.shields.io/github/issues/kauevestena/kauevestena.github.io)](https://github.com/kauevestena/kauevestena.github.io/issues)
