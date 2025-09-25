@@ -2,10 +2,47 @@
 
 - title: General Information
   type: map
-  cont- title: Open Source Projects
+  contents:
+    - name: Full Name
+      value: Kauê de Moraes Vestena
+    - name: Date of birth
+      value: 1st January 1994
+    - name: Languages
+      value: Portuguese (native), English (fluent), Spanish (conversational)
+    - name: Email
+      value: <a href="mailto:kauemv2@gmail.com">kauemv2@gmail.com</a>
+    - name: ORCID
+      value: <a href="https://orcid.org/0000-0003-1225-2371">0000-0003-1225-2371</a>
+    - name: Location
+      value: Curitiba, Paraná, Brazil
+
+- title: Open Source Projects
   type: time_table
   contents:
-    - title: <a- title: Honors and Awards
+    - title: <a href="https://github.com/kauevestena/osm_sidewalkreator">OSM SidewalKreator</a>
+      year: 2022–present
+      description: 
+        - QGIS plugin for automated sidewalk network creation in OpenStreetMap
+        - 500+ downloads from QGIS Plugin Repository
+        - Features automated geometry generation and accessibility tagging compliance
+        - Supports batch processing for city-wide mapping projects
+        - Open-source under GNU GPL license
+    - title: <a href="https://opensidewalkmap.org">OpenSidewalkMap</a>
+      year: 2023–present
+      description: 
+        - Collaborative platform for comprehensive pedestrian network mapping
+        - Web-based visualization of accessibility data from OpenStreetMap
+        - Integration with municipal planning workflows
+        - API services for third-party application development
+    - title: Accessibility Mapping Toolkit
+      year: 2021–present
+      description:
+        - Collection of Python scripts and QGIS tools for accessibility analysis
+        - Data validation algorithms for crowdsourced accessibility information
+        - Quality assurance protocols for OpenStreetMap accessibility data
+        - Documentation and tutorials for community mapping
+
+- title: Honors and Awards
   type: time_table
   contents:
     - year: 2024
@@ -47,7 +84,12 @@
     - year: 2020–present
       items:
         - OpenStreetMap Foundation Supporting Member
-        - Member, Brazilian Association of Geodetic Sciencesps://github.com/kauevestena/osm_sidewalkreator">OSM SidewalKreator</a>
+        - Member, Brazilian Association of Geodetic Sciences
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/kauevestena/osm_sidewalkreator">OSM SidewalKreator</a>
       year: 2022–present
       description: 
         - QGIS plugin for automated sidewalk network creation in OpenStreetMap
@@ -210,7 +252,7 @@
   contents:
     - title: <a href="https://github.com/kauevestena/osm_sidewalkreator">OSM SidewalKreator</a>
       year: 2022–present
-      description: A QGIS plugin that automatically generates sidewalk geometries from OSM street data【490715376250272†L26-L33】.
+      description: A QGIS plugin that automatically generates sidewalk geometries from OSM street data.
     - title: <a href="https://github.com/kauevestena/opensidewalkmap_beta">OpenSidewalkMap Beta</a>
       year: 2023–present
       description: A project to create a comprehensive inventory and visualisation of pedestrian networks using OSM data.
