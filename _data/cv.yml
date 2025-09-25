@@ -121,7 +121,7 @@
         - 8 published articles in international journals and conference proceedings
         - Focus areas include accessibility mapping, mobile mapping, and geodetic sciences
         - Citations in Web of Science and Scopus databases
-        - h-index: [X], total citations: [Y] (Google Scholar)
+        - "h-index: [X], total citations: [Y] (Google Scholar)"
     - title: Conference Presentations
       year: 2022–2024
       description:
@@ -177,7 +177,7 @@
         - Supervisor: Prof. Dr. [Supervisor Name]
         - Research focus on using OpenStreetMap and open-source tools for inclusive urban planning
         - Developing automated methodologies for sidewalk network mapping and accessibility assessment
-        - GPA: [Grade]/[Scale] (if applicable)
+        - "GPA: [Grade]/[Scale] (if applicable)"
     - title: Master of Science in Geodetic Sciences
       institution: Federal University of Paraná (UFPR)
       year: 2017–2020
@@ -185,7 +185,7 @@
         - Thesis: "Terrestrial Mobile Mapping for Urban Infrastructure Documentation"
         - Developed innovative approaches combining mobile mapping with accessibility analysis
         - Research on remote sensing applications for urban environment assessment
-        - GPA: [Grade]/[Scale]
+        - "GPA: [Grade]/[Scale]"
     - title: Bachelor of Science in Cartographic and Surveying Engineering
       institution: Federal University of Paraná (UFPR)
       year: 2012–2017
@@ -193,7 +193,7 @@
         - Comprehensive study of geodetic sciences, cartography, and geospatial technologies
         - Specialization in urban mapping and geographic information systems
         - Final project on [specific topic]
-        - GPA: [Grade]/[Scale]
+        - "GPA: [Grade]/[Scale]"
     - title: Technical Diploma in Surveying
       institution: Federal Technological University of Paraná (UTFPR)
       year: 2009–2012
@@ -231,7 +231,7 @@
         - Mentored undergraduate students in research projects and thesis work
         - Developed educational materials for geospatial technology courses
     - title: Junior Surveyor (Internship)
-      institution: [Company Name], Curitiba, Brazil
+      institution: "[Company Name], Curitiba, Brazil"
       year: 2016–2017
       description:
         - Performed topographic and cadastral surveys using total stations and GNSS
@@ -239,7 +239,7 @@
         - Gained practical experience with surveying equipment and field procedures
         - Contributed to municipal mapping projects and land boundary determination
     - title: Surveying Technician (Internship)
-      institution: [Company Name], Curitiba, Brazil
+      institution: "[Company Name], Curitiba, Brazil"
       year: 2011–2012
       description:
         - Entry-level position during technical education
