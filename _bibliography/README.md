@@ -1,58 +1,45 @@
 # Bibliography Management
 
-This directory contains the bibliography files for your academic publications.
+`papers.bib` drives the [publications page](../_pages/publications.md) via Jekyll Scholar.
 
-## Files
+## Source of truth
 
-- `papers.bib` - Main bibliography file with all your publications
-- `README.md` - This file with instructions
+Entries here are mirrored from [ORCID 0000-0003-1225-2371](https://orcid.org/0000-0003-1225-2371).
+Keeping ORCID up to date and regenerating from it is the least error-prone workflow — every entry
+then has a real DOI behind it.
 
-## Adding New Publications
+To pull the canonical BibTeX for a DOI:
 
-To add a new publication to your website:
-
-1. **Add the BibTeX entry** to `papers.bib`
-2. **Include relevant fields**:
-   - `abbr` - Short journal/conference abbreviation
-   - `bibtex_show={true}` - Show the BibTeX citation
-   - `selected={true}` - Feature on the front page (use sparingly)
-   - `pdf` - Link to PDF file (place PDFs in `assets/pdf/`)
-   - `code` - Link to code repository
-   - `website` - Link to project website
-   - `doi` - Digital Object Identifier
-   - `abstract` - Paper abstract
-
-## Example Entry
-
-```bibtex
-@article{vestena2024example,
-  abbr={Journal},
-  bibtex_show={true},
-  title={Your Paper Title},
-  author={Vestena, Kauê de Moraes and Co-Author, Name},
-  journal={Journal Name},
-  volume={1},
-  number={1},
-  pages={1--10},
-  year={2024},
-  publisher={Publisher},
-  doi={10.1000/example.doi},
-  abstract={Your paper abstract here...},
-  pdf={vestena2024example.pdf},
-  selected={true}
-}
+```bash
+curl -LH "Accept: application/x-bibtex" https://doi.org/<DOI>
 ```
 
-## PDF Management
+Crossref output needs a little hand-editing before it is committed:
 
-Place PDF files in the `assets/pdf/` directory and reference them in the `pdf` field using just the filename.
+- Cite keys are inconsistent (sometimes empty). Normalize to `<firstauthor><year><keyword>`.
+- Some publishers emit malformed author lists, e.g. `author={ and Surname, Name and }`.
+  Strip the empty `and` fragments.
+- Normalize every spelling of the site owner's name to `Vestena, Kauê de Moraes` so author
+  highlighting works (see the `scholar:` block in `_config.yml`).
 
-## Scholar Configuration
+## al-folio fields
 
-The Jekyll Scholar configuration in `_config.yml` is set to recognize your name variations:
-- `Kauê`
-- `Kauê de Moraes`
-- `K. M.`
-- Last name: `Vestena`
+Beyond standard BibTeX, these are recognised:
 
-This ensures proper author highlighting in the publication list.
+- `abbr` — venue badge; add a matching key to [`_data/venues.yml`](../_data/venues.yml) for colour and link
+- `bibtex_show={true}` — show the BibTeX popup
+- `selected={true}` — feature on the front page (use sparingly)
+- `html`, `pdf`, `code`, `website`, `abstract` — link buttons
+
+Only add `pdf={...}` when the file actually exists in `assets/pdf/`.
+
+Co-author links come from [`_data/coauthors.yml`](../_data/coauthors.yml), keyed by lowercase
+surname.
+
+## Validation
+
+```bash
+python3 validate_bib.py
+```
+
+Checks that every entry has the required fields for its type. Exits non-zero on failure.

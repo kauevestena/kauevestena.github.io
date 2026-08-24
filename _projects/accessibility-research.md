@@ -2,7 +2,7 @@
 layout: page
 title: Accessibility Mapping Research
 description: PhD research on using open data for inclusive urban mobility mapping
-img: assets/img/accessibility-research.jpg
+# img: assets/img/projects/accessibility-research.jpg # add this image to enable the card thumbnail
 importance: 3
 category: research
 related_publications: true
@@ -24,14 +24,18 @@ The primary goal is to establish systematic approaches for creating and maintain
 ## Methodological Framework
 
 ### Multi-Source Data Integration
+
 The research develops frameworks for combining diverse data sources:
+
 - **Remote sensing data** for initial infrastructure detection
 - **Mobile mapping systems** for detailed attribute collection
 - **Crowdsourced contributions** through OpenStreetMap and specialized platforms
 - **Official datasets** from municipal and transportation authorities
 
 ### Quality Assurance Protocols
+
 Establishing robust validation methods:
+
 - **Automated topology validation** for geometric consistency
 - **Attribute completeness checks** ensuring comprehensive documentation
 - **Community review processes** for local knowledge validation
@@ -40,13 +44,16 @@ Establishing robust validation methods:
 ## Technical Contributions
 
 ### Open-Source Tool Development
+
 Creating accessible tools for the research community:
+
 - **OSM SidewalKreator QGIS plugin** for efficient sidewalk mapping
 - **Data validation algorithms** for quality assurance
 - **Visualization platforms** for accessibility data exploration
 - **API frameworks** for data sharing and integration
 
 ### Methodological Innovations
+
 - **Hybrid mapping approaches** combining automated and manual techniques
 - **Scalable crowdsourcing protocols** for community engagement
 - **Data fusion methodologies** for multi-source integration
@@ -55,14 +62,18 @@ Creating accessible tools for the research community:
 ## Case Studies and Applications
 
 ### Urban Accessibility Assessments
+
 Applying research methodologies in real-world contexts:
+
 - **Curitiba, Brazil** - Comprehensive sidewalk network mapping
 - **University campus accessibility** - Detailed pedestrian route analysis
 - **Public transit integration** - Connecting pedestrian and transit networks
 - **Historic district mapping** - Accessibility in heritage preservation areas
 
 ### Collaborative Mapping Projects
+
 Engaging communities in accessibility data creation:
+
 - **Municipal partnership projects** with local government agencies
 - **Disability advocacy collaboration** ensuring user-centered design
 - **Student engagement initiatives** through academic mapping projects
@@ -71,12 +82,14 @@ Engaging communities in accessibility data creation:
 ## Research Impact
 
 ### Academic Contributions
+
 - **Peer-reviewed publications** on accessibility mapping methodologies
 - **Conference presentations** at geodetic sciences and GIS venues
 - **Collaborative research** with international accessibility mapping initiatives
 - **Methodological frameworks** adopted by other research groups
 
 ### Practical Applications
+
 - **Municipal planning support** through detailed accessibility datasets
 - **Navigation application enhancement** with comprehensive pedestrian data
 - **Policy development assistance** using evidence-based accessibility analysis
@@ -85,12 +98,14 @@ Engaging communities in accessibility data creation:
 ## Future Research Directions
 
 ### Technology Integration
+
 - **Machine learning applications** for automated accessibility feature detection
 - **IoT sensor integration** for real-time accessibility monitoring
 - **Augmented reality interfaces** for field data collection
 - **Blockchain approaches** for decentralized data validation
 
 ### Methodological Development
+
 - **Dynamic accessibility modeling** accounting for temporal variations
 - **Multi-modal integration** connecting different transportation networks
 - **Personalized accessibility metrics** adapting to individual user needs
@@ -98,7 +113,7 @@ Engaging communities in accessibility data creation:
 
 ---
 
-*This research contributes to the growing field of accessibility mapping and inclusive urban design, providing both theoretical frameworks and practical tools for creating more accessible cities.*
+_This research contributes to the growing field of accessibility mapping and inclusive urban design, providing both theoretical frameworks and practical tools for creating more accessible cities._
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

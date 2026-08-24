@@ -80,7 +80,7 @@ telegram_username: # your Telegram user name
 scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: "0000-0003-1225-2371" # my ORCID ID【548293366074390†L7-L9】
+orcid_id: "0000-0003-1225-2371" # my ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -156,15 +156,13 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # your disqus shortname, if you enable disqus comments
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -212,18 +210,15 @@ include: ["_pages"]
 exclude:
   - bin
   - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - docker-compose.yml
-  - Dockerfile
-  - FAQ.md
   - Gemfile
   - Gemfile.lock
-  - INSTALL.md
   - LICENSE
   - package.json
   - package-lock.json
   - purgecss.config.js
   - README.md
+  - scripts
+  - validate_bib.py
   - vendor
 keep_files:
   - CNAME
@@ -280,8 +275,11 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["accessibility", "openstreetmap", "mobile-mapping", "geodetic-sciences", "qgis"] # these tags will be displayed on the front page of your blog
-display_categories: ["research", "tools", "community"] # these categories will be displayed on the front page of your blog
+# Tags/categories to feature on the blog front page. Only list ones that
+# actually have posts -- an entry with no posts renders a link to a page that
+# does not exist.
+display_tags: []
+display_categories: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -376,10 +374,10 @@ lazy_loading_images:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: true # enables google analytics
+enable_google_analytics: false # set true once google_analytics is filled in
 enable_cronitor_analytics: false # enables cronitor RUM analytics
-enable_google_verification: true # enables google site verification
-enable_bing_verification: true # enables bing site verification
+enable_google_verification: false # set true once google_site_verification is filled in
+enable_bing_verification: false # set true once bing_site_verification is filled in
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
@@ -459,24 +457,3 @@ vega-embed:
 vega-lite:
   version: "5.16.3"
   integrity: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
-
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references

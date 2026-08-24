@@ -2,7 +2,7 @@
 layout: page
 title: OSM SidewalKreator
 description: QGIS plugin for creating accessible sidewalk networks in OpenStreetMap
-img: assets/img/osm-sidewalkreator.jpg
+# img: assets/img/projects/osm-sidewalkreator.jpg # add this image to enable the card thumbnail
 importance: 1
 category: work
 github: https://github.com/kauevestena/osm_sidewalkreator
@@ -17,8 +17,6 @@ The plugin enables urban planners, accessibility advocates, and OpenStreetMap co
 
 ## Key Features
 
-## Key Features
-
 - **Automated Sidewalk Generation**: Creates sidewalk geometries parallel to street networks with customizable offset distances
 - **Accessibility Tagging**: Implements comprehensive OpenStreetMap accessibility tags (surface type, width, tactile paving, kerb details)
 - **Quality Assurance**: Built-in validation tools to ensure data consistency and OSM compliance
@@ -28,6 +26,7 @@ The plugin enables urban planners, accessibility advocates, and OpenStreetMap co
 ## Technical Implementation
 
 The plugin is built using Python and the QGIS API, leveraging:
+
 - **PyQGIS** for geospatial processing and user interface
 - **OSM tagging schemas** for standardized accessibility attributes
 - **Geometric algorithms** for automated sidewalk placement and topology validation
@@ -36,6 +35,7 @@ The plugin is built using Python and the QGIS API, leveraging:
 ## Impact and Applications
 
 OSM SidewalKreator has been used in several urban accessibility mapping projects, contributing to:
+
 - **Municipal planning initiatives** for improving pedestrian infrastructure
 - **Academic research** on urban accessibility and inclusive mobility
 - **Community mapping efforts** led by disability advocacy groups
@@ -48,6 +48,7 @@ This tool directly supports my PhD research on accessibility mapping methodologi
 ## Future Development
 
 Ongoing development focuses on:
+
 - Enhanced automation using machine learning for sidewalk detection
 - Integration with mobile mapping data sources
 - Improved user interface for non-technical contributors
@@ -55,4 +56,4 @@ Ongoing development focuses on:
 
 ---
 
-*For more information about OSM SidewalKreator, visit the [GitHub repository](https://github.com/kauevestena/osm_sidewalkreator) or contact me for collaboration opportunities.*
+_For more information about OSM SidewalKreator, visit the [GitHub repository](https://github.com/kauevestena/osm_sidewalkreator) or contact me for collaboration opportunities._

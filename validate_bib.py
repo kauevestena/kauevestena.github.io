@@ -16,8 +16,18 @@ def validate_bibtex(filepath):
 
     issues = []
 
-    # Find all entries
-    entries = re.findall(r"@(\w+)\{([^,]+),([^}]+)\}", content, re.DOTALL)
+    # Find all entries. Brace-match to the entry's closing brace: a naive
+    # [^}]+ stops at the first nested field brace and hides every later field.
+    entries = []
+    for m in re.finditer(r"@(\w+)\{([^,]+),", content):
+        depth, i = 1, m.end()
+        while i < len(content) and depth:
+            if content[i] == "{":
+                depth += 1
+            elif content[i] == "}":
+                depth -= 1
+            i += 1
+        entries.append((m.group(1), m.group(2).strip(), content[m.end() : i - 1]))
 
     print(f"Found {len(entries)} BibTeX entries")
 
@@ -36,7 +46,7 @@ def validate_bibtex(filepath):
 
         # Check for presence of required fields
         for field in required:
-            if f"{field}=" not in entry_content.lower():
+            if not re.search(rf"\b{field}\s*=", entry_content, re.IGNORECASE):
                 issues.append(f"  ⚠ Missing required field '{field}' in {entry_key}")
 
         # Check for common al-folio fields
@@ -49,7 +59,9 @@ def validate_bibtex(filepath):
             "abstract",
         ]
         found_alfolio = [
-            field for field in alfolio_fields if f"{field}=" in entry_content.lower()
+            field
+            for field in alfolio_fields
+            if re.search(rf"\b{field}\s*=", entry_content, re.IGNORECASE)
         ]
         if found_alfolio:
             print(f"  📎 Al-folio fields: {', '.join(found_alfolio)}")
@@ -67,7 +79,8 @@ def validate_bibtex(filepath):
 if __name__ == "__main__":
     bib_file = Path("_bibliography/papers.bib")
     if bib_file.exists():
-        validate_bibtex(bib_file)
+        if not validate_bibtex(bib_file):
+            sys.exit(1)
     else:
         print(f"Error: {bib_file} not found!")
         sys.exit(1)

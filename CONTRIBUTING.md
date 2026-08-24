@@ -5,20 +5,25 @@ Thank you for your interest in contributing to my personal academic website! Whi
 ## Types of Contributions Welcome
 
 ### 🐛 Bug Reports
+
 If you find any issues with the website:
+
 - Broken links or navigation problems
-- Display issues on different devices/browsers  
+- Display issues on different devices/browsers
 - Accessibility barriers
 - Performance problems
 
 ### 💡 Suggestions
+
 I'm open to suggestions for:
+
 - Improved user experience and navigation
 - Better accessibility features
 - Enhanced presentation of research content
 - Technical optimizations
 
 ### 🔧 Technical Improvements
+
 - Code quality improvements
 - Performance optimizations
 - Accessibility enhancements
@@ -49,11 +54,13 @@ I'm open to suggestions for:
 ## Guidelines
 
 ### Content Guidelines
+
 - **Research content**: Please don't modify research descriptions, publications, or CV content without discussion
 - **Personal information**: Don't change personal details, contact information, or biographical content
 - **Project descriptions**: Technical corrections are welcome, but substantial changes should be discussed first
 
 ### Technical Guidelines
+
 - **Accessibility first**: All changes should maintain or improve accessibility
 - **Mobile responsive**: Test changes on mobile devices
 - **Performance**: Avoid adding heavy dependencies or assets
@@ -61,6 +68,7 @@ I'm open to suggestions for:
 - **Documentation**: Update documentation for significant changes
 
 ### Code Style
+
 - Use consistent indentation (2 spaces for YAML, HTML, CSS)
 - Write clear, descriptive commit messages
 - Comment complex code sections
@@ -69,17 +77,20 @@ I'm open to suggestions for:
 ## Development Setup
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/kauevestena/kauevestena.github.io.git
    cd kauevestena.github.io
    ```
 
 2. **Install dependencies:**
+
    ```bash
    bundle install
    ```
 
 3. **Run locally:**
+
    ```bash
    bundle exec jekyll serve
    ```
@@ -89,9 +100,10 @@ I'm open to suggestions for:
 ## What NOT to Change
 
 Please don't modify:
+
 - Personal biographical information
 - Research publication details
-- CV content and achievements  
+- CV content and achievements
 - Project authorship or contribution claims
 - Contact information
 - Personal photos or research images (when added)
@@ -115,18 +127,3 @@ By contributing to this project, you agree that your contributions will be licen
 ---
 
 Thank you for helping make this academic website better! 🙏
-
-We use GitHub issues to track bugs and feature requests.
-Before submitting an issue, please make sure:
-
-1. You have read [the FAQ section](FAQ.md) of the README and your question is NOT addressed there.
-2. You have done your best to ensure that your issue is NOT a duplicate of one of [the previous issues](https://github.com/alshedivat/al-folio/issues).
-3. Your issue is either a bug (unexpected/undesirable behavior) or a feature request.
-   If it is just a question, please ask it in the [Discussions](https://github.com/alshedivat/al-folio/discussions) forum.
-
-When submitting an issue, please make sure to use the appropriate template.
-
-## License
-
-By contributing to al-folio, you agree that your contributions will be licensed
-under the LICENSE file in the root directory of the source tree.

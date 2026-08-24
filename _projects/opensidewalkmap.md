@@ -2,7 +2,7 @@
 layout: page
 title: OpenSidewalkMap
 description: Collaborative platform for comprehensive pedestrian network mapping
-img: assets/img/opensidewalkmap.jpg
+# img: assets/img/projects/opensidewalkmap.jpg # add this image to enable the card thumbnail
 importance: 2
 category: work
 website: https://opensidewalkmap.org
@@ -18,12 +18,14 @@ The project aims to make pedestrian navigation information freely available and 
 ## Key Components
 
 ### Data Collection Framework
+
 - **Standardized mapping protocols** for consistent sidewalk documentation
 - **Mobile mapping integration** for efficient field data collection
 - **Quality assurance workflows** ensuring data reliability and completeness
 - **Community engagement tools** for involving local stakeholders
 
 ### Technical Infrastructure
+
 - **OpenStreetMap integration** with specialized accessibility tagging schemas
 - **Web-based visualization platform** for exploring pedestrian networks
 - **API services** for third-party application integration
@@ -50,6 +52,7 @@ The project employs a multi-source data approach:
 ## Impact and Adoption
 
 OpenSidewalkMap has been implemented in several cities, contributing to:
+
 - **Municipal accessibility audits** and infrastructure planning
 - **Navigation applications** with detailed accessibility information
 - **Research publications** on pedestrian network analysis
@@ -58,6 +61,7 @@ OpenSidewalkMap has been implemented in several cities, contributing to:
 ## Collaboration and Partnerships
 
 The project involves collaboration with:
+
 - **Academic institutions** conducting accessibility research
 - **Municipal governments** improving pedestrian infrastructure
 - **Disability advocacy organizations** ensuring inclusive design
@@ -66,6 +70,7 @@ The project involves collaboration with:
 ## Future Development
 
 Ongoing development includes:
+
 - **Machine learning integration** for automated sidewalk detection
 - **Real-time data updates** through crowdsourced contributions
 - **Enhanced visualization tools** for better data exploration
@@ -73,4 +78,4 @@ Ongoing development includes:
 
 ---
 
-*Learn more about OpenSidewalkMap and explore the platform at [opensidewalkmap.org](https://opensidewalkmap.org)*
+_Learn more about OpenSidewalkMap and explore the platform at [opensidewalkmap.org](https://opensidewalkmap.org)_

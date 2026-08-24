@@ -9,11 +9,11 @@ nav_order: 3
 
 Over the last few years I have been developing and contributing to a number of open‑source tools that advance accessibility mapping and collaborative cartography. Below are some of the key projects I maintain or contribute to.
 
-## OSM SidewalKreator【490715376250272†L26-L33】
+## OSM SidewalKreator
 
 A QGIS plugin that automatically generates sidewalk geometries from OpenStreetMap street data. It streamlines the tedious process of drawing pedestrian networks and helps populate OSM with comprehensive sidewalk information.
 
-## OpenSidewalkMap【818070301618945†L156-L162】
+## OpenSidewalkMap
 
 An initiative to create a comprehensive inventory and visualisation of pedestrian networks using OpenStreetMap data. The goal is to make accessibility information more readily available to researchers, planners and the general public.
 

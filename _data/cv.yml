@@ -1,170 +1,25 @@
 # Curriculum vitae data for Kauê de Moraes Vestena
+#
+# This file is what renders at /cv/. Keep it factual: every entry here should be
+# verifiable from ORCID, the UFPR programme records, or a public repository.
 
 - title: General Information
   type: map
   contents:
     - name: Full Name
       value: Kauê de Moraes Vestena
-    - name: Date of birth
-      value: 1st January 1994
-    - name: Languages
-      value: Portuguese (native), English (fluent), Spanish (conversational)
+    - name: Position
+      value: PhD candidate in Geodetic Sciences, Federal University of Paraná (UFPR)
+    - name: Location
+      value: Curitiba, Paraná, Brazil
     - name: Email
       value: <a href="mailto:kauemv2@gmail.com">kauemv2@gmail.com</a>
     - name: ORCID
       value: <a href="https://orcid.org/0000-0003-1225-2371">0000-0003-1225-2371</a>
-    - name: Location
-      value: Curitiba, Paraná, Brazil
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/kauevestena/osm_sidewalkreator">OSM SidewalKreator</a>
-      year: 2022–present
-      description: 
-        - QGIS plugin for automated sidewalk network creation in OpenStreetMap
-        - 500+ downloads from QGIS Plugin Repository
-        - Features automated geometry generation and accessibility tagging compliance
-        - Supports batch processing for city-wide mapping projects
-        - Open-source under GNU GPL license
-    - title: <a href="https://opensidewalkmap.org">OpenSidewalkMap</a>
-      year: 2023–present
-      description: 
-        - Collaborative platform for comprehensive pedestrian network mapping
-        - Web-based visualization of accessibility data from OpenStreetMap
-        - Integration with municipal planning workflows
-        - API services for third-party application development
-    - title: Accessibility Mapping Toolkit
-      year: 2021–present
-      description:
-        - Collection of Python scripts and QGIS tools for accessibility analysis
-        - Data validation algorithms for crowdsourced accessibility information
-        - Quality assurance protocols for OpenStreetMap accessibility data
-        - Documentation and tutorials for community mapping
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2024
-      items:
-        - Best Paper Award - International Conference on Accessibility Mapping
-        - Travel Grant - FOSS4G 2024 Conference (Belém, Brazil)
-        - Recognition for Outstanding Contribution to OpenStreetMap Community
-    - year: 2023
-      items:
-        - CAPES Scholarship for PhD studies in Geodetic Sciences
-        - State of the Map Conference Speaker - Accessibility Mapping Workshop
-        - Open Source Geospatial Foundation (OSGeo) Community Recognition
-    - year: 2022
-      items:
-        - Best Master's Thesis Award - Brazilian Society of Cartography
-        - Travel Grant - FOSS4G 2022 Conference (Florence, Italy)
-        - Excellence in Academic Research - UFPR Graduate Program
-    - year: 2020
-      items:
-        - Magna Cum Laude - Master's Degree in Geodetic Sciences
-        - Research Excellence Award - Federal University of Paraná
-    - year: 2017
-      items:
-        - Outstanding Graduate - Bachelor's in Cartographic Engineering
-        - Academic Merit Scholarship - Federal University of Paraná
-
-- title: Professional Memberships & Certifications
-  type: time_table
-  contents:
-    - year: 2023–present
-      items:
-        - Member, Open Source Geospatial Foundation (OSGeo)
-        - Member, International Association of Geodesy (IAG)
-        - Member, Brazilian Society of Cartography, Geodesy and Remote Sensing
-    - year: 2022–present
-      items:
-        - Certified QGIS Plugin Developer
-        - Professional Registration - Brazilian Federal Council of Engineering (CONFEA)
-    - year: 2020–present
-      items:
-        - OpenStreetMap Foundation Supporting Member
-        - Member, Brazilian Association of Geodetic Sciences
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/kauevestena/osm_sidewalkreator">OSM SidewalKreator</a>
-      year: 2022–present
-      description: 
-        - QGIS plugin for automated sidewalk network creation in OpenStreetMap
-        - 500+ downloads from QGIS Plugin Repository
-        - Features automated geometry generation and accessibility tagging compliance
-        - Supports batch processing for city-wide mapping projects
-        - Open-source under GNU GPL license
-    - title: <a href="https://opensidewalkmap.org">OpenSidewalkMap</a>
-      year: 2023–present
-      description: 
-        - Collaborative platform for comprehensive pedestrian network mapping
-        - Web-based visualization of accessibility data from OpenStreetMap
-        - Integration with municipal planning workflows
-        - API services for third-party application development
-    - title: Accessibility Mapping Toolkit
-      year: 2021–present
-      description:
-        - Collection of Python scripts and QGIS tools for accessibility analysis
-        - Data validation algorithms for crowdsourced accessibility information
-        - Quality assurance protocols for OpenStreetMap accessibility data
-        - Documentation and tutorials for community mapping
-
-- title: Publications
-  type: time_table
-  contents:
-    - title: Peer-Reviewed Articles
-      year: 2021–2024
-      description:
-        - 8 published articles in international journals and conference proceedings
-        - Focus areas include accessibility mapping, mobile mapping, and geodetic sciences
-        - Citations in Web of Science and Scopus databases
-        - h-index: [X], total citations: [Y] (Google Scholar)
-    - title: Conference Presentations
-      year: 2022–2024
-      description:
-        - FOSS4G 2023 (Prizren, Kosovo) - OSM SidewalKreator presentation
-        - State of the Map 2023 - Accessibility mapping workshop
-        - Brazilian Symposium on Remote Sensing 2022 - OpenSidewalkMap platform
-        - Multiple presentations at geodetic sciences conferences
-
-- title: Skills & Competencies
-  type: nested_list
-  contents:
-    - title: Programming & Software Development
-      items:
-        - Python (advanced) - QGIS plugin development, data analysis, automation
-        - JavaScript/HTML/CSS - Web mapping applications and visualization
-        - SQL/PostGIS - Spatial database management and analysis
-        - Git/GitHub - Version control and collaborative development
-        - QGIS Plugin Development - PyQGIS, Qt Designer, plugin distribution
-    - title: Geospatial Technologies
-      items:
-        - QGIS, ArcGIS, PostGIS - Advanced GIS analysis and cartographic production
-        - OpenStreetMap - Data editing, quality assurance, community engagement
-        - Mobile Mapping Systems - LiDAR processing, point cloud analysis
-        - GNSS/GPS - Differential positioning, network adjustments, accuracy assessment
-        - Remote Sensing - Image processing, feature extraction, change detection
-    - title: Research & Academic
-      items:
-        - Statistical Analysis - R, Python pandas/numpy, hypothesis testing
-        - Technical Writing - Academic papers, grant proposals, documentation
-        - Project Management - Research planning, timeline management, collaboration
-        - Data Visualization - Maps, charts, interactive web visualizations
-        - Public Speaking - Conference presentations, workshops, community outreach - name: Full Name
-      value: Kauê de Moraes Vestena
-    - name: Date of birth
-      value: 1st January 1994
-    - name: Languages
-      value: Portuguese (native), English (fluent), Spanish (conversational)
-    - name: Email
-      value: <a href="mailto:kauemv2@gmail.com">kauemv2@gmail.com</a>
-    - name: ORCID
-      value: <a href="https://orcid.org/0000-0003-1225-2371">0000-0003-1225-2371</a>
-    - name: Location
-      value: Curitiba, Paraná, Brazil
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ">qc6CJjYAAAAJ</a>
+    - name: GitHub
+      value: <a href="https://github.com/kauevestena">kauevestena</a>
 
 - title: Education
   type: time_table
@@ -173,144 +28,99 @@
       institution: Federal University of Paraná (UFPR)
       year: 2021–present
       description:
-        - Thesis: "Accessibility Mapping Methodologies Using Open Data and Collaborative Cartography"
-        - Supervisor: Prof. Dr. [Supervisor Name]
-        - Research focus on using OpenStreetMap and open-source tools for inclusive urban planning
-        - Developing automated methodologies for sidewalk network mapping and accessibility assessment
-        - GPA: [Grade]/[Scale] (if applicable)
-    - title: Master of Science in Geodetic Sciences
+        - Research on accessibility mapping with open data and collaborative cartography
+        - Automated methodologies for sidewalk network mapping in OpenStreetMap
+    - title: MSc in Geodetic Sciences
       institution: Federal University of Paraná (UFPR)
       year: 2017–2020
       description:
-        - Thesis: "Terrestrial Mobile Mapping for Urban Infrastructure Documentation"
-        - Developed innovative approaches combining mobile mapping with accessibility analysis
-        - Research on remote sensing applications for urban environment assessment
-        - GPA: [Grade]/[Scale]
-    - title: Bachelor of Science in Cartographic and Surveying Engineering
+        - Research on terrestrial mobile mapping systems for urban environment assessment
+    - title: BSc in Cartographic and Surveying Engineering
       institution: Federal University of Paraná (UFPR)
       year: 2012–2017
-      description:
-        - Comprehensive study of geodetic sciences, cartography, and geospatial technologies
-        - Specialization in urban mapping and geographic information systems
-        - Final project on [specific topic]
-        - GPA: [Grade]/[Scale]
     - title: Technical Diploma in Surveying
       institution: Federal Technological University of Paraná (UTFPR)
       year: 2009–2012
-      description:
-        - Professional training in surveying techniques and equipment operation
-        - Practical experience with total stations, GNSS systems, and leveling equipment
-        - Internship experience with local surveying companies
 
 - title: Experience
   type: time_table
   contents:
-    - title: PhD Candidate & Research Assistant
-      institution: Federal University of Paraná (UFPR), Department of Geodetic Sciences
+    - title: PhD Candidate and Researcher
+      institution: Federal University of Paraná (UFPR), Graduate Program in Geodetic Sciences
       year: 2021–present
       description:
-        - Conduct advanced research on accessibility mapping and collaborative cartography
-        - Develop open-source tools for inclusive urban planning and navigation
-        - Lead development of OSM SidewalKreator QGIS plugin with 500+ downloads
-        - Collaborate with international research teams on accessibility mapping standards
-        - Present research at major conferences including FOSS4G and State of the Map
-    - title: Graduate Research Assistant
+        - Research on accessibility mapping, collaborative cartography and OpenStreetMap data quality
+        - Development and maintenance of open-source geospatial tools
+        - Collaboration with the Polytechnic University of Milan on open-vocabulary classification of urban pathways
+    - title: Graduate Researcher
       institution: Federal University of Paraná (UFPR)
-      year: 2017–2021
+      year: 2017–2020
       description:
-        - Conducted Master's research on terrestrial mobile mapping technologies
-        - Assisted in data collection and analysis for multiple research projects
-        - Developed expertise in point cloud processing and mobile mapping systems
-        - Co-authored peer-reviewed publications on urban infrastructure mapping
-    - title: Teaching Assistant
-      institution: Federal University of Paraná (UFPR)
-      year: 2018–2020
-      description:
-        - Assisted in teaching undergraduate courses in Geodesy and Cartography
-        - Supervised laboratory sessions on GNSS surveying and GIS applications
-        - Mentored undergraduate students in research projects and thesis work
-        - Developed educational materials for geospatial technology courses
-    - title: Junior Surveyor (Internship)
-      institution: [Company Name], Curitiba, Brazil
-      year: 2016–2017
-      description:
-        - Performed topographic and cadastral surveys using total stations and GNSS
-        - Assisted in construction layout and as-built documentation
-        - Gained practical experience with surveying equipment and field procedures
-        - Contributed to municipal mapping projects and land boundary determination
-    - title: Surveying Technician (Internship)
-      institution: [Company Name], Curitiba, Brazil
-      year: 2011–2012
-      description:
-        - Entry-level position during technical education
-        - Learned basic surveying techniques and equipment operation
-        - Assisted experienced surveyors in field data collection
-        - Developed foundational skills in measurement and mapping
+        - Development of a low-cost terrestrial mobile mapping system
+        - Convolutional neural networks applied to urban vegetation detection
 
 - title: Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/kauevestena/osm_sidewalkreator">OSM SidewalKreator</a>
       year: 2022–present
-      description: A QGIS plugin that automatically generates sidewalk geometries from OSM street data.
-    - title: <a href="https://github.com/kauevestena/opensidewalkmap_beta">OpenSidewalkMap Beta</a>
+      description:
+        - QGIS plugin that generates sidewalk geometries automatically from OpenStreetMap street data
+        - Over 23,000 downloads across all releases from the <a href="https://plugins.qgis.org/plugins/osm_sidewalkreator/">QGIS Plugin Repository</a>
+        - Includes a QGIS Processing Provider for batch and scripted workflows
+        - Published in the European Journal of Geography (2023) and presented at State of the Map 2022
+    - title: <a href="https://github.com/kauevestena/opensidewalkmap_beta">OpenSidewalkMap</a>
       year: 2023–present
-      description: A project to create a comprehensive inventory and visualisation of pedestrian networks using OSM data.
+      description:
+        - Inventory and visualisation of pedestrian networks built from OpenStreetMap data
+        - Aims to make sidewalk and accessibility information easier to explore and reuse
 
-- title: Honors and Awards
+- title: Publications
   type: time_table
   contents:
-    - year: 2023
-      items:
-        - Recognition at academic conferences for work on accessibility mapping (e.g., State of the Map).
-        - Travel grant for presenting research on sidewalk mapping.
-    - year: 2022
-      items:
-        - Awarded scholarship to attend FOSS4G 2022.
+    - title: Peer-reviewed journal articles, book chapters and conference papers
+      year: 2016–2025
+      description:
+        - Topics span accessibility mapping, collaborative cartography, mobile mapping, photogrammetry and GNSS positioning
+        - Full list on the <a href="/publications/">publications page</a>, mirrored from <a href="https://orcid.org/0000-0003-1225-2371">ORCID</a>
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Accessibility Mapping & Inclusive Design
+    - title: Accessibility mapping and collaborative cartography
       items:
-        - Pedestrian network mapping using OpenStreetMap and crowdsourced data
-        - Development of accessibility standards and validation protocols
-        - Integration of accessibility data with navigation and planning applications
-        - Community engagement in collaborative accessibility mapping
-    - title: Geospatial Data Science & Mobile Mapping
+        - Pedestrian and sidewalk network mapping in OpenStreetMap
+        - Quality assessment of crowdsourced geospatial data
+        - Integration of community-mapped data into official topographic mapping
+    - title: Mobile mapping and photogrammetry
       items:
-        - Terrestrial mobile mapping systems for urban infrastructure documentation
-        - Point cloud processing and automated feature extraction
-        - Machine learning applications in geospatial data analysis
-        - Multi-sensor data fusion for comprehensive urban mapping
-    - title: Open Source GIS & Collaborative Cartography
+        - Low-cost terrestrial mobile mapping systems
+        - Deep learning for detection of urban infrastructure from terrestrial imagery
+        - RGB-D data registration and point cloud processing
+    - title: Geodesy and satellite positioning
       items:
-        - Development of open-source tools for geospatial analysis and visualization
-        - OpenStreetMap data quality assessment and improvement methodologies
-        - Community-driven mapping initiatives and capacity building
-        - Sustainable approaches to geospatial data collection and maintenance
+        - Precise Point Positioning (PPP) and ambiguity resolution
+        - Tropospheric modelling and its effect on positioning accuracy
 
-- title: Research Interests & Future Directions
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Emerging Technologies
+    - title: Programming
       items:
-        - Integration of IoT sensors for real-time accessibility monitoring
-        - Applications of artificial intelligence in automated mapping
-        - Augmented reality interfaces for field data collection
-        - Blockchain approaches for decentralized geospatial data validation
-    - title: Policy & Social Impact
+        - Python — QGIS plugin development (PyQGIS), geospatial analysis, automation
+        - SQL / PostGIS — spatial database management
+        - JavaScript, HTML, CSS — web mapping and visualisation
+        - Git and GitHub — version control, CI, collaborative development
+    - title: Geospatial
       items:
-        - Evidence-based policy development for inclusive urban planning
-        - International standardization of accessibility mapping protocols
-        - Capacity building in developing countries for community mapping
-        - Integration of accessibility considerations in smart city initiatives
+        - QGIS and the wider OSGeo stack
+        - OpenStreetMap — editing, validation, tooling and community engagement
+        - GNSS surveying and precise positioning
+        - Photogrammetry, LiDAR and point cloud processing
+        - Remote sensing and machine learning for feature extraction
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Outdoor Activities:</u> Hiking and exploring natural areas, often using GPS and mapping technologies
-    - <u>Travel:</u> Visiting different cities to understand urban design and accessibility challenges
-    - <u>Technology:</u> Following developments in open-source software and emerging geospatial technologies
-    - <u>Community Service:</u> Volunteering for mapping initiatives and accessibility advocacy organizations
-    - <u>Photography:</u> Documenting urban infrastructure and accessibility features for research and advocacy
+    - <u>Outdoors:</u> hiking and travelling, usually with a GPS receiver in hand
+    - <u>Open source:</u> contributing to and advocating for open geospatial software and open data

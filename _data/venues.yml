@@ -1,6 +1,35 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"IJGI":
+  url: https://www.mdpi.com/journal/ijgi
+  color: "#0b7285"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"EJG":
+  url: https://eurogeojournal.eu/
+  color: "#1864ab"
+
+"BCG":
+  url: https://revistas.ufpr.br/bcg
+  color: "#2b8a3e"
+
+"Anuário IGEO":
+  url: https://revistas.ufrj.br/index.php/aigeo
+  color: "#5f3dc4"
+
+"ISPRS":
+  url: https://www.isprs.org/publications/archives.aspx
+  color: "#c92a2a"
+
+"ICA":
+  url: https://ica-abs.copernicus.org/
+  color: "#e8590c"
+
+"SotM":
+  url: https://stateofthemap.org/
+  color: "#7048e8"
+
+"Springer":
+  url: https://link.springer.com/
+  color: "#495057"
+
+"Tamoios":
+  url: https://www.e-publicacoes.uerj.br/tamoios
+  color: "#0c8599"
