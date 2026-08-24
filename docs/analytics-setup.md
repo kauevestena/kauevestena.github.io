@@ -17,6 +17,7 @@ This guide helps you set up analytics and tracking for your academic website.
 ### 2. Configure Property
 
 1. **Property settings:**
+
    - Industry category: "Education"
    - Business size: "Small"
    - Use case: "Get baseline reports"
@@ -46,6 +47,7 @@ google_analytics: G-XXXXXXXXXX # Replace with your actual ID
 ### 2. Verify Ownership
 
 **Method 1: HTML meta tag (Recommended)**
+
 1. Copy the verification meta tag
 2. Add to `_config.yml`:
 
@@ -54,6 +56,7 @@ google_site_verification: your_verification_code # without the meta tag wrapper
 ```
 
 **Method 2: DNS verification**
+
 1. Add TXT record to your domain (if using custom domain)
 2. Wait for DNS propagation
 
@@ -99,6 +102,7 @@ bing_site_verification: your_bing_verification_code
 ### 1. Privacy Policy
 
 Consider adding a privacy policy page (`_pages/privacy.md`) covering:
+
 - What data is collected
 - How it's used
 - User rights
@@ -107,12 +111,14 @@ Consider adding a privacy policy page (`_pages/privacy.md`) covering:
 ### 2. Cookie Consent
 
 For European visitors, consider implementing cookie consent:
+
 - Use Jekyll plugins like `jekyll-cookie-consent`
 - Or implement custom solution
 
 ### 3. Data Retention
 
 Configure Google Analytics data retention:
+
 1. Go to Admin → Data Settings → Data Retention
 2. Set appropriate retention period (26 months is standard)
 
@@ -121,16 +127,19 @@ Configure Google Analytics data retention:
 ### Key Metrics to Track
 
 1. **Audience:**
+
    - Geographic distribution
    - Device types
    - Browser usage
 
 2. **Acquisition:**
+
    - Traffic sources
    - Social media referrals
    - Search engine performance
 
 3. **Content:**
+
    - Most viewed pages
    - Publications page performance
    - Project page engagement
@@ -146,17 +155,17 @@ Track academic-specific interactions:
 
 ```javascript
 // Track publication downloads
-gtag('event', 'download', {
-  'event_category': 'Publication',
-  'event_label': 'Paper Title',
-  'value': 1
+gtag("event", "download", {
+  event_category: "Publication",
+  event_label: "Paper Title",
+  value: 1,
 });
 
 // Track external link clicks
-gtag('event', 'click', {
-  'event_category': 'External Link',
-  'event_label': 'GitHub Repository',
-  'transport_type': 'beacon'
+gtag("event", "click", {
+  event_category: "External Link",
+  event_label: "GitHub Repository",
+  transport_type: "beacon",
 });
 ```
 
@@ -199,6 +208,7 @@ gtag('event', 'click', {
 ## Academic-Specific Tracking
 
 Consider tracking:
+
 - Paper downloads and views
 - Conference presentation slides access
 - CV downloads

@@ -9,7 +9,6 @@ assets/img/
 ├── prof_pic.png              # Profile photo (circular crop recommended)
 ├── hero.png                  # Hero image for homepage and Open Graph
 ├── publication_preview/       # Thumbnails for publications
-├── readme_preview/           # Repository preview images
 ├── projects/                 # Project-specific images (create this folder)
 │   ├── osm-sidewalkreator.jpg
 │   ├── opensidewalkmap.jpg
@@ -26,25 +25,30 @@ assets/img/
 ## Image Specifications
 
 ### Profile Photo (`prof_pic.png`)
+
 - **Format**: PNG with transparent background preferred
 - **Size**: 400x400px minimum (square aspect ratio)
 - **Style**: Professional academic photo
 - **Usage**: About page, profile card, Open Graph meta
 
 ### Hero Image (`hero.png`)
+
 - **Format**: PNG or high-quality JPG
 - **Size**: 1200x630px (Open Graph optimal)
 - **Content**: Abstract representation of your research or professional workspace
 - **Usage**: Homepage header, social media previews
 
 ### Project Images
+
 Each project should have a representative image:
+
 - **Format**: JPG or PNG
 - **Size**: 800x600px minimum (4:3 aspect ratio)
 - **Content**: Screenshots, diagrams, or conceptual illustrations
 - **Naming**: Use project slug (e.g., `osm-sidewalkreator.jpg`)
 
 ### Publication Previews
+
 - **Format**: PNG preferred for diagrams
 - **Size**: 400x300px (4:3 aspect ratio)
 - **Content**: Key figures, results visualizations, or methodology diagrams
@@ -53,11 +57,13 @@ Each project should have a representative image:
 ## Current Image Status
 
 ✅ **Available:**
+
 - Profile photo (`prof_pic.png`)
 - Hero image (`hero.png`)
 - Template images (1.jpg through 12.jpg)
 
 🔄 **Needed for Projects:**
+
 - OSM SidewalKreator screenshot or logo
 - OpenSidewalkMap platform screenshot
 - Research methodology diagram
@@ -70,6 +76,7 @@ Each project should have a representative image:
 Before adding images:
 
 1. **Compress images** using tools like:
+
    - [TinyPNG](https://tinypng.com/) for PNG files
    - [ImageOptim](https://imageoptim.com/) for multiple formats
    - [Squoosh](https://squoosh.app/) for advanced optimization
@@ -81,6 +88,7 @@ Before adding images:
 ## Usage in Markdown
 
 ### Project pages:
+
 ```markdown
 ---
 img: assets/img/projects/osm-sidewalkreator.jpg
@@ -88,22 +96,26 @@ img: assets/img/projects/osm-sidewalkreator.jpg
 ```
 
 ### Inline images:
+
 ```liquid
-{% include figure.liquid 
-   path="assets/img/research/methodology-flow.png" 
-   title="Research methodology flowchart" 
-   class="img-fluid rounded z-depth-1" %}
+{%
+  include figure.liquid
+  path="assets/img/research/methodology-flow.png"
+  title="Research methodology flowchart"
+  class="img-fluid rounded z-depth-1"
+%}
 ```
 
 ### Image galleries:
+
 ```html
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/screenshot1.jpg" title="Interface overview" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/screenshot2.jpg" title="Data processing" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/projects/screenshot1.jpg" title="Interface overview" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/projects/screenshot2.jpg" title="Data processing" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 ```
 
