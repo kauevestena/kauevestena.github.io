@@ -18,7 +18,7 @@ social: true
 ---
 
 <!-- Hero image -->
-<img src="{{ '/assets/img/hero.png' | relative_url }}" alt="Abstract geospatial network illustration" style="width:100%; max-height:400px; object-fit:cover; border-radius:0.5rem; margin-bottom:1rem;" />
+<!-- <img src="{{ '/assets/img/hero.png' | relative_url }}" alt="Abstract geospatial network illustration" style="width:100%; max-height:400px; object-fit:cover; border-radius:0.5rem; margin-bottom:1rem;" /> -->
 
 I am **Kauê de Moraes Vestena**, a Professor at the Federal Technological University of Paraná (UTFPR), Pato Branco campus, and hold a PhD in Geodetic Sciences from the Federal University of Paraná (UFPR, 2021–2025), including a sandwich research period at the Politecnico di Milano (Oct 2023–Mar 2024). My work centres on accessibility mapping using open data and open tools, with a particular focus on mapping sidewalk networks in OpenStreetMap. I develop open‑source software to support inclusive mobility, including the **OSM SidewalKreator** QGIS plugin, and contribute to projects such as **OpenSidewalkMap** to create comprehensive pedestrian network inventories.
 
