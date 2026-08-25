@@ -1,0 +1,2 @@
+- use implement/photo.png as the photo for the main page
+- use implement/cv_xml/9787699103652534.xml to update the whole site, there is my updated CV, including my new role as professor and newer publications
