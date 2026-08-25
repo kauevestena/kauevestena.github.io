@@ -9,9 +9,9 @@
     - name: Full Name
       value: Kauê de Moraes Vestena
     - name: Position
-      value: PhD candidate in Geodetic Sciences, Federal University of Paraná (UFPR)
+      value: Professor, Federal Technological University of Paraná (UTFPR), Pato Branco
     - name: Location
-      value: Curitiba, Paraná, Brazil
+      value: Pato Branco, Paraná, Brazil
     - name: Email
       value: <a href="mailto:kauemv2@gmail.com">kauemv2@gmail.com</a>
     - name: ORCID
@@ -26,8 +26,10 @@
   contents:
     - title: PhD in Geodetic Sciences
       institution: Federal University of Paraná (UFPR)
-      year: 2021–present
+      year: 2021–2025
       description:
+        - "Dissertation: Toward a Global Pedestrian-Centered Map: An Open Framework for Mapping, Validating and Publishing Active Mobility Networks (advisor: Silvana Philippi Camboim; co-advisor: Daniel Rodrigues dos Santos)"
+        - Sandwich research period at the Politecnico di Milano (Oct 2023–Mar 2024, advisor Maria Antonia Brovelli)
         - Research on accessibility mapping with open data and collaborative cartography
         - Automated methodologies for sidewalk network mapping in OpenStreetMap
     - title: MSc in Geodetic Sciences
@@ -37,7 +39,7 @@
         - Research on terrestrial mobile mapping systems for urban environment assessment
     - title: BSc in Cartographic and Surveying Engineering
       institution: Federal University of Paraná (UFPR)
-      year: 2012–2017
+      year: 2013–2017
     - title: Technical Diploma in Surveying
       institution: Federal Technological University of Paraná (UTFPR)
       year: 2009–2012
@@ -45,9 +47,14 @@
 - title: Experience
   type: time_table
   contents:
-    - title: PhD Candidate and Researcher
+    - title: Professor (Magistério Superior)
+      institution: Federal Technological University of Paraná (UTFPR), Pato Branco
+      year: 2026–present
+      description:
+        - Full-time, exclusive-dedication teaching and research position
+    - title: PhD Researcher
       institution: Federal University of Paraná (UFPR), Graduate Program in Geodetic Sciences
-      year: 2021–present
+      year: 2021–2025
       description:
         - Research on accessibility mapping, collaborative cartography and OpenStreetMap data quality
         - Development and maintenance of open-source geospatial tools

@@ -8,16 +8,17 @@ middle_name: "de Moraes"
 last_name: "Vestena"
 email: "kauemv2@gmail.com"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Kauê de Moraes Vestena is a PhD candidate in Geodetic Sciences at the Federal University of Paraná, 
-  specializing in accessibility mapping using OpenStreetMap and open-source geospatial technologies. 
-  Creator of OSM SidewalKreator QGIS plugin and researcher focused on inclusive urban planning, 
-  collaborative cartography, and sustainable approaches to pedestrian network mapping. Discover research 
+  Kauê de Moraes Vestena is a Professor at the Federal Technological University of Paraná (UTFPR), Pato Branco,
+  and holds a PhD in Geodetic Sciences from the Federal University of Paraná (UFPR),
+  specializing in accessibility mapping using OpenStreetMap and open-source geospatial technologies.
+  Creator of OSM SidewalKreator QGIS plugin and researcher focused on inclusive urban planning,
+  collaborative cartography, and sustainable approaches to pedestrian network mapping. Discover research
   publications, open-source projects, and contributions to accessible city design.
 footer_text: >
   © 2024 Kauê de Moraes Vestena. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. 
   Committed to <a href="https://www.un.org/sustainabledevelopment/" target="_blank">accessible</a> and <a href="https://opensource.org/" target="_blank">open-source</a> research.
-keywords: geodetic sciences, accessibility mapping, OpenStreetMap, QGIS plugin development, sidewalk networks, inclusive urban planning, collaborative cartography, mobile mapping, geospatial data science, open source GIS, pedestrian mobility, urban accessibility, cartographic engineering, remote sensing, PhD researcher, Federal University of Paraná, UFPR, Brazil # comprehensive keywords for SEO
+keywords: geodetic sciences, accessibility mapping, OpenStreetMap, QGIS plugin development, sidewalk networks, inclusive urban planning, collaborative cartography, mobile mapping, geospatial data science, open source GIS, pedestrian mobility, urban accessibility, cartographic engineering, remote sensing, professor, UTFPR, Pato Branco, Federal University of Paraná, UFPR, Brazil # comprehensive keywords for SEO
 lang: en # site language
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
